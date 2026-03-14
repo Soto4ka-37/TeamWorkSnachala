@@ -58,7 +58,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\ГруппаКонтроллер.cs" />
+    <Compile Include="Controllers\ДеканКонтролер.cs" />
+    <Compile Include="Controllers\ЗанятиеКонтроллер.cs" />
+    <Compile Include="Controllers\ПредметКонтроллер.cs" />
+    <Compile Include="Controllers\ПреподавательКонтроллер.cs" />
+    <Compile Include="Controllers\СтудентКонтроллер.cs" />
     <Compile Include="DataBase\UssDBconnection.cs" />
+    <Compile Include="Models\Группа.cs" />
+    <Compile Include="Models\Декан.cs" />
+    <Compile Include="Models\Занятие.cs" />
+    <Compile Include="Models\Предмет.cs" />
+    <Compile Include="Models\Преподователь.cs" />
+    <Compile Include="Models\Студент.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs" />
@@ -96,9 +108,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
