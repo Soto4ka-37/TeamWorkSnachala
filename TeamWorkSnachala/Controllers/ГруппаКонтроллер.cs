@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TeamWorkSnachala.Controllers
 {
-    internal class ГруппаКонтроллер
+    public class ГруппаКонтроллер
     {
     }
 }

@@ -8,5 +8,6 @@ namespace TeamWorkSnachala.Models
 {
     internal class ДеканКонтроллер
     {
+
     }
 }
