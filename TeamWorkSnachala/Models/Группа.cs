@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace TeamWorkSnachala.Models
 {
-    internal class Группа
+    public class Группа
     {
+        public string НазваниеГруппы { get; set; }
+        public string ЛогинСтаросты { get; set; }
+        public string ПарольСтаросты { get; set; }
+
     }
 }

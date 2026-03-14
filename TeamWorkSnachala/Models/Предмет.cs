@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace TeamWorkSnachala.Models
 {
-    internal class ПредметКонтроллер
+    public class ПредметКонтроллер
     {
+        public int ID_Предмета { get; set; }
+        public int ID_Преподавателя_FK { get; set; } // Внешний ключ к преподавателю
+        public string НазваниеПредмета { get; set; }
+
     }
 }

@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace TeamWorkSnachala.Models
 {
-    internal class ДеканКонтроллер
+    public class ДеканКонтроллер
     {
+        public string Логин { get; set; }
+        public string Пароль { get; set; }
+
     }
 }

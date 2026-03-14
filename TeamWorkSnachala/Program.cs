@@ -10,6 +10,7 @@ namespace TeamWorkSnachala
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
